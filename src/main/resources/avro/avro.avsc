@@ -1,0 +1,9 @@
+{"namespace": "model",
+ "type": "record",
+ "name": "Product",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "id",  "type": ["int", "null"]},
+     {"name": "company", "type": ["string", "null"]}
+ ]
+}
